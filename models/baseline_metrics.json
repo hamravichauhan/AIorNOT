@@ -1,0 +1,9 @@
+{
+  "accuracy": 0.5401,
+  "precision": 0.5355,
+  "recall": 0.6058,
+  "f1": 0.5685,
+  "roc_auc": 0.5614,
+  "threshold": 0.5,
+  "model_path": "models\\baseline_tfidf_logreg.joblib"
+}

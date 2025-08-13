@@ -1,0 +1,29 @@
+{
+  "base_metrics": {
+    "threshold": 0.5,
+    "accuracy": 0.5401,
+    "precision": 0.5355,
+    "recall": 0.6058,
+    "f1": 0.5685,
+    "roc_auc": 0.5614
+  },
+  "tuned": {
+    "best_f1_threshold": 0.05,
+    "best_f1_value": 0.6667,
+    "best_f1_precision": 0.5,
+    "best_f1_recall": 1.0,
+    "high_precision_threshold_0.90": 0.668,
+    "hp_precision": 1.0,
+    "hp_recall": 0.0073,
+    "hp_f1": 0.0145
+  },
+  "artifacts": {
+    "roc_curve_png": "models\\eval\\roc_curve.png",
+    "cm_0.5_csv": "models\\eval\\confusion_0.5.csv",
+    "cm_bestF1_csv": "models\\eval\\confusion_bestF1.csv",
+    "report_0.5_csv": "models\\eval\\classification_report_0.5.csv",
+    "report_bestF1_csv": "models\\eval\\classification_report_bestF1.csv",
+    "top_tokens_AI_csv": "models\\eval\\top_tokens_AI.csv",
+    "top_tokens_HUMAN_csv": "models\\eval\\top_tokens_HUMAN.csv"
+  }
+}
