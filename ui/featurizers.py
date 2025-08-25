@@ -1,4 +1,11 @@
-# src/featurizers.py
+# ui/featurizers.py
+"""Language-agnostic code feature extraction utilities for the UI.
+
+This module provides a helper function that computes simple statistical
+features from code snippets. These features are later consumed by the UI's
+classification models.
+"""
+
 from __future__ import annotations
 import re
 import numpy as np
